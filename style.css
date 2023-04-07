@@ -1,0 +1,51 @@
+body{
+    background: black;
+}
+
+.mid{
+    text-align: center;
+    padding-top: 3vw;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 70px;
+}
+
+.container{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 7vw;
+}
+
+.button{
+    color: #8707ff;
+    border: 2px solid #8707ff;
+    padding: 12px;
+    width: 66px;
+    margin: 0 3px;
+    border-radius: 9px;
+    cursor: pointer;
+    font-size: x-large;
+}
+
+.button:active{
+    box-shadow: 2px 2px 15px #8707ff inset;
+}
+
+.row{
+    margin: 8px 0;
+}
+
+.row input {
+    color: #8707ff;
+    border: 2px solid #8707ff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 10px 0px;
+    background: transparent;
+    width: 291px;
+}
+   
+.row input:active {
+    box-shadow: 2px 2px 15px #8707ff inset;
+}
